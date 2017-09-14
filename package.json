@@ -1,16 +1,31 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "An app to be used to find friends on-line",
-  "main": "node server.js",
+  "description": "An app that can be used to search for friends or dates",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-fuentes/FriendFinder.git"
+  },
+  "keywords": [
+    "dating",
+    "match-making",
+    "friends",
+    "search"
+  ],
   "author": "Joe Fuentes",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-fuentes/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/joe-fuentes/FriendFinder#readme",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "express": "^4.13.4",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
     "path": "^0.12.7"
   }
 }

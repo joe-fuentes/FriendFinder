@@ -1,5 +1,5 @@
 html { 
-  background: url("fistbump") no-repeat center center fixed; 
+  background: url("friendly.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-	font-family: 'Bungee', cursive;
+	font-family: 'Verdana', cursive;
 	font-size: 85px !important;
-	color: #A7EBC7;
+	color: #FF530D;
 	letter-spacing: 4px;
 	padding-top: 100px;
 }
 
 h4 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 	font-size: 20px !important;
 	color: #FFF;
 	text-transform: uppercase
